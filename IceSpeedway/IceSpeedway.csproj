@@ -10,7 +10,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="images\logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Include="images\cold.ico" />
+    <Content Include="images\logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>
